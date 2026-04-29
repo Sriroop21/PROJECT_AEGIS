@@ -1,0 +1,61 @@
+======================================================================
+AEGIS IMAGE ENCRYPTION SYSTEM - RESULTS SUMMARY
+======================================================================
+Generated: 2026-04-08 19:08:40
+======================================================================
+
+1. LOSSLESS GUARANTEE METRICS
+----------------------------------------------------------------------
+   MSE:  0.0000000000
+   PSNR: 100.0000 dB
+   SSIM: 1.000000
+
+2. ENTROPY ANALYSIS
+----------------------------------------------------------------------
+   Original:  7.277966 bits
+   Encrypted: 7.999737 bits
+   Decrypted: 7.277966 bits
+
+3. PIXEL CHANGE METRICS (AVALANCHE EFFECT TEST)
+----------------------------------------------------------------------
+   METHOD: True cryptographic avalanche test
+   Step 1: Encrypt original image -> C1 (temp_encrypted.png)
+   Step 2: Change ONE pixel in original -> P'
+   Step 3: Encrypt modified image -> C2
+   Step 4: Calculate NPCR/UACI between C1 and C2
+
+   NPCR (Avalanche): 99.6199%
+   UACI (Avalanche): 33.4331%
+
+   INTERPRETATION:
+   - NPCR measures % of pixels that change when 1 input pixel changes
+   - UACI measures average intensity change magnitude
+   - High values (>99% NPCR, ~33% UACI) indicate strong avalanche effect
+   - Demonstrates sensitivity to plaintext modifications
+
+4. CORRELATION COEFFICIENTS
+----------------------------------------------------------------------
+   Original Image:
+     Horizontal: 0.732361
+     Vertical:   0.754107
+     Diagonal:   0.643694
+   Encrypted Image:
+     Horizontal: 0.016032
+     Vertical:   0.014666
+     Diagonal:   -0.012155
+
+5. HISTOGRAM UNIFORMITY
+----------------------------------------------------------------------
+   Original Chi-Square:  468549.76
+   Encrypted Chi-Square: 264.17
+
+6. CRYPTOGRAPHIC PARAMETERS
+----------------------------------------------------------------------
+   Key Space: 2^256
+   PBKDF2 Iterations: 100,000
+   Wavelet Type: Integer Haar (Lossless)
+   DNA Rules: 8
+
+======================================================================
+END OF REPORT
+======================================================================
