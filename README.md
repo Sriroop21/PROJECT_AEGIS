@@ -20,7 +20,7 @@ Standard block ciphers (e.g., AES) apply identical operations across every pixel
 
 ## System Architecture
 
-![AEGIS Architecture](figures/crypto_arch.jpg)
+![AEGIS Architecture](images/crypto_arch.jpg)
 
 ---
 
@@ -30,7 +30,7 @@ Standard block ciphers (e.g., AES) apply identical operations across every pixel
 
 | Original Image | Encrypted Output | Decrypted Image |
 |:-:|:-:|:-:|
-| ![Original](figures/temp_input.png) | ![Encrypted](figures/temp_encrypted.png) | ![Decrypted](figures/temp_decrypted.png) |
+| ![Original](images/temp_input.png) | ![Encrypted](images/temp_encrypted.png) | ![Decrypted](images/temp_decrypted.png) |
 
 ---
 
@@ -38,7 +38,7 @@ Standard block ciphers (e.g., AES) apply identical operations across every pixel
 
 Encrypted entropy reaches 7.9997 bits/pixel — near the theoretical maximum of 8.0 bits.
 
-![Entropy Analysis](figures/figure1_entropy.png)
+![Entropy Analysis](images/figure1_entropy.png)
 
 ---
 
@@ -46,7 +46,7 @@ Encrypted entropy reaches 7.9997 bits/pixel — near the theoretical maximum of 
 
 The encrypted image produces a flat, uniform histogram (Chi-Square: 264.17), eliminating statistical frequency attacks.
 
-![Histogram Distribution](figures/figure3_histogram.png)
+![Histogram Distribution](images/figure3_histogram.png)
 
 ---
 
@@ -54,13 +54,13 @@ The encrypted image produces a flat, uniform histogram (Chi-Square: 264.17), eli
 
 Adjacent pixel correlation is reduced from ~0.73 to ~0.016, dismantling the spatial structure of the original image.
 
-![Correlation Analysis](figures/figure2_correlation.png)
+![Correlation Analysis](images/figure2_correlation.png)
 
 ---
 
 ### Security Metrics (Radar)
 
-![Radar Chart](figures/figure4_radar.png)
+![Radar Chart](images/figure4_radar.png)
 
 ---
 
@@ -68,7 +68,7 @@ Adjacent pixel correlation is reduced from ~0.73 to ~0.016, dismantling the spat
 
 ### Table I — Comprehensive Metrics
 
-![Table 1](figures/table1_metrics.png)
+![Table 1](images/table1_metrics.png)
 
 | Metric | Measured Value | Expected/Ideal | Status |
 |---|---|---|---|
@@ -89,7 +89,7 @@ Adjacent pixel correlation is reduced from ~0.73 to ~0.016, dismantling the spat
 
 ### Table II — Encryption Impact
 
-![Table 2](figures/table2_comparison.png)
+![Table 2](images/table2_comparison.png)
 
 | Property | Original | Encrypted | Change |
 |---|---|---|---|
