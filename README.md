@@ -144,7 +144,7 @@ Adjacent pixel correlation is reduced from ~0.73 to ~0.016, dismantling the spat
 
 ## Paper
 
-The full research paper is available here: [docs/Context-Aware_Tactical_Image_Encryption_Achieving_0_0_MSE_via_Integer_Wavelets_and_Biological_DNA_Algebra.pdf](docs/Context-Aware_Tactical_Image_Encryption_Achieving_0_0_MSE_via_Integer_Wavelets_and_Biological_DNA_Algebra.pdf)
+The full research paper is available here: [docs/Context-Aware_Tactical_Image_Encryption_Achieving_0_0_MSE_via_Integer_Wavelets_and_Biological_DNA_Algebra.pdf](docs/Context-Aware Tactical Image Encryption Achieving 0.0 MSE via Integer Wavelets and Biological DNA Algebra.pdf)
 
 ---
 
